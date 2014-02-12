@@ -17,5 +17,11 @@
             "type": "vcs",
             "url": "git@github.com:outeredge/edge-magento-module-testimonials.git"
         }
-    ]
+    ],
+    "extra": {
+        "map": [
+            ["etc", "app/etc"],
+            ["code", "app/code"]
+        ]
+    }
 }
