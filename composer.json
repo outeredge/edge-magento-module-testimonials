@@ -1,9 +1,21 @@
 {
     "name": "outeredge/edge-magento-module-testimonials",
+    "type": "magento-module",
     "description": "Testimonials Module by outer/edge",
     "license": "MIT",
-    "type": "magento-theme",
+    "authors": [
+        {
+            "name": "outer/edge",
+            "email": "support@outeredgeuk.com"
+        }
+    ],
     "require": {
-        "composer/installers": "~1.0"
-    }
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:outeredge/edge-magento-module-testimonials.git"
+        }
+    ]
 }
