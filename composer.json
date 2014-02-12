@@ -1,0 +1,9 @@
+{
+    "name": "outeredge/edge-magento-module-testimonials",
+    "description": "Testimonials Module by outer/edge",
+    "license": "MIT",
+    "type": "magento-theme",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
