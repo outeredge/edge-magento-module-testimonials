@@ -54,12 +54,12 @@
     </admin>
     <adminhtml>
         <menu>
-            <edge module="edge">
+            <edge>
                 <title>outer/edge</title>
                 <sort_order>10</sort_order>
                 <children>
-                    <testimonials module="edge">
-                        <title>testimonials</title>
+                    <testimonials module="testimonials">
+                        <title>Testimonials</title>
                         <sort_order>10</sort_order>
                         <action>testimonials/admin</action>
                     </testimonials>
