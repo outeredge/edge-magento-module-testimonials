@@ -25,16 +25,13 @@ class Edge_Testimonials_Block_Adminhtml_Testimonials_Grid extends Mage_Adminhtml
             'width'     => '50',
             'index'     => 'id'
         ));
-
-        $this->addColumn('name', array(
-            'header'    => Mage::helper('testimonials')->__('Name'),
-            'index'     => 'name'
-        ));
-
-        $this->addColumn('quote', array(
-            'header'    => Mage::helper('testimonials')->__('Quote'),
-            'index'     => 'quote'
-        ));
+        
+        foreach (array('name', 'company', 'quote') as $attribute){
+            $this->addColumn($attribute, array(
+                'header'    => Mage::helper('testimonials')->__(ucfirst($attribute)),
+                'index'     => $attribute
+            ));
+        }
 
         return parent::_prepareColumns();
     }

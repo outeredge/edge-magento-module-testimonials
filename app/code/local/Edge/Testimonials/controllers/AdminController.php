@@ -9,7 +9,7 @@ class Edge_Testimonials_AdminController extends Mage_Adminhtml_Controller_Action
         $this->loadLayout()
             ->_title($this->__('outer/edge'))
             ->_title($this->__('Testimonials'))
-            ->_setActiveMenu('testimonials');
+            ->_setActiveMenu('edge');
 
         return $this;
     }
