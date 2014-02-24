@@ -20,7 +20,7 @@
     ],
     "extra": {
         "map": [
-            ["app", "app"]
+            ["app/code/local/Edge/Testimonials", "app/code/local/Edge/Testimonials"]
         ]
     }
 }
