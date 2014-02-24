@@ -20,7 +20,8 @@
     ],
     "extra": {
         "map": [
-            ["app/code/local/Edge/Testimonials", "app/code/local/Edge/Testimonials"]
+            ["app/code/local/Edge/Testimonials", "app/code/local/Edge/Testimonials"],
+            ["app/etc/modules/Edge_Testimonials.xml", "app/etc/modules/Edge_Testimonials.xml"]
         ]
     }
 }
