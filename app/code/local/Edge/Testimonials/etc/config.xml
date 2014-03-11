@@ -43,28 +43,13 @@
     </global>
     <admin>
         <routers>
-            <testimonials>
-                <use>admin</use>
+            <adminhtml>
                 <args>
-                    <module>Edge_Testimonials</module>
-                    <frontName>testimonials</frontName>
+                    <modules>
+                        <Edge_Testimonials adter="Mage_Adminhtml">Edge_Testimonials</Edge_Testimonials>
+                    </modules>
                 </args>
-            </testimonials>
+            </adminhtml>
         </routers>
     </admin>
-    <adminhtml>
-        <menu>
-            <edge>
-                <title>outer/edge</title>
-                <sort_order>10</sort_order>
-                <children>
-                    <testimonials module="testimonials">
-                        <title>Testimonials</title>
-                        <sort_order>10</sort_order>
-                        <action>testimonials/admin</action>
-                    </testimonials>
-                </children>
-            </edge>
-        </menu>
-    </adminhtml>
 </config>
