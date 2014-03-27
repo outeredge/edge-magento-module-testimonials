@@ -46,7 +46,7 @@
             <adminhtml>
                 <args>
                     <modules>
-                        <Edge_Testimonials adter="Mage_Adminhtml">Edge_Testimonials</Edge_Testimonials>
+                        <Edge_Testimonials after="Mage_Adminhtml">Edge_Testimonials</Edge_Testimonials>
                     </modules>
                 </args>
             </adminhtml>
