@@ -1,6 +1,6 @@
 <?php
 
-class Edge_Testimonials_Adminhtml_TestimonialController extends Mage_Adminhtml_Controller_Action
+class Edge_Testimonials_AdminController extends Mage_Adminhtml_Controller_Action
 {
     protected $model;
 

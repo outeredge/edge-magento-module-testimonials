@@ -1,28 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
     <menu>
-        <cms>
+        <edge>
+            <title>outer/edge</title>
+            <sort_order>10</sort_order>
             <children>
                 <testimonials module="testimonials">
                     <title>Testimonials</title>
                     <sort_order>10</sort_order>
-                    <action>adminhtml/adminhtml_testimonial/index</action>
+                    <action>testimonials/admin</action>
                 </testimonials>
             </children>
-        </cms>
+        </edge>
     </menu>
     <acl>
         <resources>
             <admin>
                 <children>
-                    <cms>
+                    <edge>
                         <children>
                             <testimonials translate="title">
                                 <title>Testimonials</title>
                                 <sort_order>10</sort_order>
                             </testimonials>
                         </children>
-                    </cms>
+                    </edge>
                 </children>
             </admin>
         </resources>
