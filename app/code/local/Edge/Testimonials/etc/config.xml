@@ -43,13 +43,13 @@
     </global>
     <admin>
         <routers>
-            <adminhtml>
+            <testimonials>
+                <use>admin</use>
                 <args>
-                    <modules>
-                        <Edge_Testimonials after="Mage_Adminhtml">Edge_Testimonials</Edge_Testimonials>
-                    </modules>
+                    <module>Edge_Testimonials</module>
+                    <frontName>testimonials</frontName>
                 </args>
-            </adminhtml>
+            </testimonials>
         </routers>
     </admin>
 </config>
