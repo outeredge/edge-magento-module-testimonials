@@ -8,6 +8,6 @@ class Edge_Testimonials_Block_Adminhtml_Testimonials extends Mage_Adminhtml_Bloc
         $this->_blockGroup = 'testimonials';
         $this->_headerText = Mage::helper('testimonials')->__('Testimonials');
         $this->_addButtonLabel = Mage::helper('testimonials')->__('Add Testimonials');
-		parent::__construct();
+        parent::__construct();
     }
 }
