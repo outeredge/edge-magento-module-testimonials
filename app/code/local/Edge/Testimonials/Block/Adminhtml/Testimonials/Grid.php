@@ -32,6 +32,12 @@ class Edge_Testimonials_Block_Adminhtml_Testimonials_Grid extends Mage_Adminhtml
                 'index'     => $attribute
             ));
         }
+        
+        $this->addColumn('sort_order', array(
+            'header'    => Mage::helper('testimonials')->__('Sort Order'),
+            'width'     => '50',
+            'index'     => 'sort_order'
+        ));
 
         return parent::_prepareColumns();
     }

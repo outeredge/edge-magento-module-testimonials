@@ -4,6 +4,8 @@ class Edge_Testimonials_Block_Testimonials extends Mage_Core_Block_Template
 {
     public function getTestimonials()
     {
-        return Mage::getModel('testimonials/testimonials')->getCollection();
+        return Mage::getModel('testimonials/testimonials')
+            ->getCollection()
+            ->setOrder('sort_order', 'ASC');
     }
 }
