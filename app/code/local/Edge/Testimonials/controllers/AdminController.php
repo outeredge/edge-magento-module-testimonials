@@ -4,6 +4,11 @@ class Edge_Testimonials_AdminController extends Mage_Adminhtml_Controller_Action
 {
     protected $model;
 
+    protected function _isAllowed()
+    {
+        return Mage::getSingleton('admin/session')->isAllowed('edge/testimonials');
+    }
+    
     protected function _initAction()
     {
         $this->loadLayout()
