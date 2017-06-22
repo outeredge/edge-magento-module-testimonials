@@ -41,6 +41,15 @@
             </testimonials_setup>
         </resources>
     </global>
+    <default>
+        <system>
+            <media_storage_configuration>
+                <allowed_resources>
+                    <testimonials_image_folder>testimonials</testimonials_image_folder>
+                </allowed_resources>
+            </media_storage_configuration>
+        </system>
+    </default>
     <admin>
         <routers>
             <testimonials>
